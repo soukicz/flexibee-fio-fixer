@@ -1,0 +1,26 @@
+{
+  "name": "soukicz/flexibee-fio-fixer",
+  "description": "Fix FIO payment labels in Flexibee",
+  "license": "MIT",
+  "config": {
+    "sort-packages": true
+  },
+  "authors": [
+    {
+      "name": "Petr Soukup",
+      "email": "soukup@simplia.cz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Soukicz\\FlexibeeFioFixer\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1.1",
+    "composer/ca-bundle": "^1.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "mhujer/fio-api-php": "^4.0",
+    "psr/log": "^1.0"
+  }
+}
